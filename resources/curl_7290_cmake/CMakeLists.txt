@@ -39,7 +39,7 @@ else ( )
 endif ( )
 
 # dependencies
-set ( ${PROJECT_NAME}_DEPS zlib openssl )
+set ( ${PROJECT_NAME}_DEPS zlib_static openssl )
 ojdkbuild_pkg_check_modules ( ${PROJECT_NAME}_DEPS_PC REQUIRED ${PROJECT_NAME}_DEPS )
 
 # headers
